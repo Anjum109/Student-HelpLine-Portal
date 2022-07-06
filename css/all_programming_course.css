@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+
+.heading{
+    text-align: center;
+    padding:1rem 0;
+  }
+  
+  .heading span{
+    font-size: 2.5rem;
+    background:rgba(128, 93, 185, 0.897);
+    color:rgb(250, 245, 245);
+    border-radius: .5rem;
+    padding:.1rem 1rem;
+  }
+  
+  .heading span.space{
+    background:none;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+
+
+
+  .c-card {
+    position: relative;
+    width: 280px;
+    height: 300px;
+  display: inline-flex;
+  margin-left: 80px;
+    background: rgb(14, 13, 13);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+    margin-bottom: 30px;
+    margin-left: 110px;
+
+    
+  }
+  
+  .c-card:hover {
+    transform: translateX(30%);
+    
+  }
+  
+  .c-card .c-imgBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    background: #000;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+  }
+  
+  .c-card:hover .c-imgBox {
+    transform: rotateY(-180deg);
+  }
+  
+  .c-card .c-imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .c-card .c-imgBox img:nth-child(2) {
+    transform: rotateY(180deg);
+  }
+  
+  .c-card .c-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    
+    justify-content: center;
+   text-align: center;
+  }
+  
+  .c-card .c-details .c-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .c-card .c-details .c-content h2 {
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: -50px;
+    color: rgb(153, 152, 152);
+  }
+  
+  .c-card .c-details .c-content h2 a {
+    background-color: rgb(170, 170, 170);
+    color: rgb(24, 24, 24);
+    padding: 7px;
+    font-size: 0.8em;
+    margin-left: -10px;
+    text-decoration: none;
+  }.c-card .c-details .c-content h2 a:hover{
+  
+    background-color: lightslategray;
+    color: rgb(255, 255, 255);
+  }

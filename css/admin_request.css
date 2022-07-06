@@ -1,0 +1,110 @@
+
+body{
+    
+    
+  background-color: #d7dbd7;
+}
+table{
+    border: 1px solid #bdbaba;
+    text-align: center;
+    border-radius: 0px;
+    margin-top: 200px;
+    margin-left: 10px;
+    position: relative;
+    background: linear-gradient(145deg,#d6d1d3,#cfc9c9);
+    box-shadow: 9px 9px 18px #a8a5a5,
+               -9px -9px 18px #999595;
+}
+th{
+    border:1px solid #f0f0f0;
+    color:#5a5656;
+    text-align: center;
+    padding: 5px;
+    font-weight: 700px;
+   
+}
+th:hover{
+    background: #8d8a8d;
+    
+    color: rgb(253, 252, 253);
+    box-shadow: 9px 9px 18px #ffe5e5,
+               -9px -9px 18px #fff9f9;
+}
+td{
+  border:1px solid #f0f0f0;
+    color:#5a5656; 
+    text-align: center;
+    padding: 5px;
+    transition: all .2s ease-in;
+    cursor: pointer;
+    
+
+}
+td:hover{
+  background: #8d8a8d;
+    
+  color: rgb(253, 252, 253);
+  box-shadow: 9px 9px 18px #ffe5e5,
+             -9px -9px 18px #fff9f9;
+               transform: scale(1.02);
+               box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.fa-edit{
+    color: rgb(65, 58, 58);
+}
+.fa-trash{
+    color: rgb(190, 65, 65);
+}
+.heading{
+    text-align: center;
+    padding:2.5rem 0;
+    margin-top: -160px;
+   display: flex;
+    position: absolute;
+    margin-left: 360px;
+    
+    
+  }
+  
+  .heading span{
+    font-size: 2rem;
+    background:rgba(24, 24, 23, 0.2);
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+    margin: 2px;
+   
+  
+   
+  }
+.fa-trash{
+    color: rgb(190, 65, 65);
+}
+.s{
+  color: rgb(255, 250, 250);
+  box-shadow: rgba(29, 28, 28, 0.2) 0px 60px 40px -7px;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55),
+  10px 10px 15px rgba(19, 18, 18, 0.12);
+  font-weight: 700;
+}
+.heading span.space{
+  background:none;
+}
+  a
+  {
+      text-decoration: none;
+      cursor: pointer;
+      transition: 0.3s;
+      color: #292929;
+      }
+      
+      .fa-trash{
+        cursor: pointer;
+      }
+     

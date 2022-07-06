@@ -1,0 +1,210 @@
+
+:root {
+    --header-height: 3.5rem; /*56px*/
+  
+   
+    --hue: 152;
+    --first-color: hsl(var(--hue), 24%, 32%);
+    --first-color-alt: hsl(var(--hue), 24%, 28%);
+    --first-color-light: hsl(var(--hue), 24%, 66%);
+    --first-color-lighten: hsl(var(--hue), 24%, 92%);
+    --title-color: hsl(var(--hue), 4%, 15%);
+    --text-color: hsl(var(--hue), 4%, 35%);
+    --text-color-light: hsl(var(--hue), 4%, 55%);
+    --body-color: hsl(var(--hue), 0%, 100%);
+    --container-color: #FFF;
+    --pink:#FF046F;
+    --violet:#C63BFA;
+  
+   
+  
+    --body-font: 'Poppins', sans-serif;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  
+   
+    --font-medium: 500;
+    --font-semi-bold: 600;
+  
+  
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+  
+    
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+  
+
+
+
+
+  body{
+
+    background-color: #d7dbd7;
+}
+
+
+
+
+span{
+    display: inline;
+    margin-top:120px ;
+    margin-left:330px ;
+    font-size:27px;
+    font-style:bold;
+}
+h1{
+
+    margin-top:120px ;
+ display: inline-block;
+    margin-bottom:20px ;
+    margin-left:70px ;
+    font-size: 26px;
+}
+.result-container{
+    width: 100px; height: 22px;
+    background-color: #ccc;
+    vertical-align:middle;
+    display:inline-block;
+    position: relative;
+    top: -4px;
+}
+.box{
+
+     width: 900px;
+     border: 0.6px solid rgb(105, 130, 184);
+     background: whitesmoke;
+     height: 300px;
+     margin-left:200px ;
+     margin-top:90px ;
+     box-shadow: 9px 9px 18px #a7a2a2,
+     -9px -9px 18px #b1adad;
+}
+.rate-stars{
+    width: 100px; height: 22px;
+    background: url(img/rate-stars.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.rate-bg{
+    height: 22px;
+    background-color: #e4e71f;
+    position: absolute;
+}
+/* Rate Star Ends*/
+
+/* Display rate count */    
+.reviewCount, .reviewScore {font-size: 14px; color: #666666; margin-left: 5px;}
+.reviewScore {font-weight: 600;}
+/* Display rate count Ends*/  
+
+a{
+
+    width: 120px;
+    height: 27px;
+    border:1px solid wheat;
+    background-color: rgb(218, 215, 49);
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    margin-left: 600px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: -26px;
+    
+}
+a:hover{
+
+    background-color: rgb(221, 221, 103);
+    color: rgb(34, 32, 32);
+}
+.reviewCount,.reviewScore{
+
+    color: rgb(236, 196, 18);
+}
+
+.review .box-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+  
+  .review .box-container .box1{
+    width:22rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    background:#fff;
+    margin:4rem 2rem;
+    border-radius: 40px;
+  }
+  
+  .review .box-container .box1 img{
+    height:7.5rem;
+    width:7.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -4rem;
+   
+  }
+  
+  .review .box-container .box1 h3{
+    font-size: 1.4rem;
+    color:var(--pink);
+    padding:0 .5rem;
+  }
+  
+  .review .box-container .box1 p{
+    font-size: 1rem;
+    color:#999;
+    padding:0 1.3rem;
+   text-align: center;
+  }
+  
+  .review .box-container .box1 .stars i{
+    font-size: 1.6rem;
+    color:gray;
+    padding:1.3rem .1rem;
+  }
+  .checked{
+
+    color:var(--violet);
+  }
+
+  
+.heading{
+  text-align: center;
+  padding:1rem 0;
+  display: flex;
+  margin-left: 180px;
+  margin-bottom: -40px;
+  margin-top: 50px;
+}
+
+.heading p{
+  font-size: 2.5rem;
+  background:rgba(105, 117, 150, 0.897);
+  color:rgb(255, 255, 255);
+  border-radius: .5rem;
+  padding:.1rem 1rem;
+  display: flex;
+  margin: 3px;
+}
+
+.heading p.space{
+  background:none;
+}

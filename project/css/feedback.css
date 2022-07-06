@@ -1,0 +1,183 @@
+/*......................... homepage......................*/
+.wrapper{
+    width: 1345px;
+    height: 1000px;
+    margin-top:0px ;
+
+}
+.Container header{
+    border-radius:10px ;
+    background:20px ;
+    height: 50px;
+    width: 1345px;
+    background-color :rgb(13, 45, 71);
+    box-shadow: 
+        inset -10px -10px 15px #205d75,
+       inset   10px 10px 15px rgb(17, 69, 112);
+        justify-content: center;
+} 
+
+
+section{
+
+    height: 900px;
+    width: 1345px;
+   
+    
+}
+
+footer{
+
+    background-color: black;
+    width:1345px;
+    height: 50px;
+
+
+}
+li a{
+
+    color:rgb(215, 209, 216);
+    text-decoration: none;
+    
+}
+   
+nav{
+   float: right;
+   
+  
+}
+nav li{
+
+    display: inline-block;
+    line-height:7px ;
+    font-size:10PX ;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    box-shadow: -5px -5px 10px 0 rgba(84, 167, 192, 0.795),
+    7px 7px 20px 0 rgba(143, 194, 236, 0.2) ;
+    border-radius:10px ;
+    
+  
+}
+nav ul li:hover{
+    box-shadow: inset -7px -7px 10px 0 rgba(148, 142, 142, 0.404),
+     7px 7px 20px 0 rgba(167, 50, 105, 0.911) ;
+
+   cursor: pointer;
+  
+   border-radius: 25px
+    
+
+}nav ul li a:hover{
+    color: rgb(10, 10, 10);
+ 
+ }
+ /*----------------------------------------feedback----------------------------------*/
+
+#feedback{
+    height: 563px;
+    width: 1345px;
+     background-image: url("/image/login.jpg");
+     margin-top: 0%;
+     background-repeat: no-repeat;
+}.box {
+    width: 380px;
+    height: 350px;
+    padding:10px ;
+    margin: 60px;
+    margin-left:480px ;
+    margin-top:40px ;	
+    border-radius: 25px;
+    box-shadow: 0 0 27px grey;
+    }.box h1{
+        margin-left: 80px;
+        font-size:20px ;
+        color: rgba(0, 0, 0, 0.801);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+        box-shadow: 2px 2px 5px #555;
+        
+        }
+
+
+        .feedbackform {
+            border-radius: 13px;
+            outline:none;
+            border: 1px solid burlywood;
+            width: 245px;
+            height:27px ; 
+            margin-left: 50px;
+            
+            
+            }
+            form  button{
+            border-radius: 13px;
+            outline:none;
+            border: 1px solid burlywood ;
+            width: 180px;
+            height:29px ; 
+            text-align: center;
+            background-color:cornflowerblue;
+            color: mintcream;
+            margin-left: 100px;
+            margin-top: 3px;
+            text-align: center;
+            
+            }
+            
+            
+            button:hover{
+            
+                box-shadow: 2px 2px 5px #555;
+            }
+            
+            input:hover{
+            
+            box-shadow: 2px 2px 5px #555;
+            }
+                             
+         
+            #un {
+            
+            margin-left: 70px;
+            margin-top: 7px;
+            position: absolute;
+          
+            
+            }    
+            
+            #User{
+
+                padding-left: 47px;
+            }
+
+            #Useremail{
+
+                padding-left: 47px;
+            }
+           #em{
+
+            margin-left: 70px;
+            margin-top: 7px;
+            position: absolute;
+          
+
+           }
+           #comments{
+
+            padding-left: 47px;
+            width: 245px;
+            height:47px ;
+            margin-top: 15px;
+            margin-left:48px ;
+           }
+           #cm{
+
+            margin-left: 70px;
+            margin-top: 32px;
+            position: absolute;
+          
+
+           }

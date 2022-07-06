@@ -1,0 +1,500 @@
+
+/*-------------------------------------------header-------------------------*/
+
+.wrapper{
+    width: 1345px;
+    height: 733px;
+    margin-top:0px ;
+
+}
+.Container header{
+    border-radius:20px ;
+    background:20px ;
+    margin-top:0px ;
+    height: 105px;
+    width: 1345px;
+    background-color :rgb(186, 201, 207);
+    box-shadow: 
+         -10px -10px 15px #0d0d0d,
+          10px 10px 15px #333;
+        justify-content: center;
+     
+} 
+
+
+section{
+
+    height: 480px;
+    width: 1345px;
+    background-image: url("/image/signup.png");
+    background-repeat: no-repeat;
+    margin-top: 0%;
+
+    
+}
+
+
+li a{
+
+    color:rgb(46, 114, 202);
+    text-decoration: none;
+    
+}
+   
+nav{
+   float: right;
+   
+  
+}
+nav li{
+
+    display: inline-block;
+    line-height:30px ;
+    font-size:13PX ;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    box-shadow: -7px -7px 20px 0 rgb(255,255,255,0.7),
+    7px 7px 20px 0 rgb(0,0,0,0.2) ;
+    border-radius:20px ;
+    
+  
+}
+nav ul li:hover{
+    box-shadow: inset -7px -7px 20px 0 rgb(255,255,255,0.7),
+    inset 7px 7px 20px 0 rgb(0,0,0,0.2) ;
+    
+   cursor: pointer;
+  
+   border-radius: 25px
+
+
+
+}
+nav ul li a:hover{
+   color: #333;
+
+}
+
+/*---------------------------------------------------signup------------------------------*/
+
+.box2 {
+
+    width: 480px;
+    height: 520px;
+    padding:10px ;
+    margin: 60px;
+    margin-left:280px ;
+    margin-top:5px ;	
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 27px grey;
+    
+}
+
+.box2:hover{
+    box-shadow: 2px 2px 5px #555;
+
+}
+.box2 h1{
+
+    margin-left: 160px;
+    color: rgb(55, 54, 56);
+} 
+#signup{
+
+    height: 563px;
+    width: 1345px;
+    margin-top: 0%;
+     
+    }
+    input:hover{
+    
+        box-shadow: 2px 2px 5px #555;}
+    
+    .sigupform{
+    
+    border-radius: 30px;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.075),
+        10px 10px 15px rgba(19, 18, 18, 0.219);
+    outline:none;
+    border: 1px solid burlywood;
+    width: 300px;
+    height: 27px ;  
+    margin-left:100px ;}
+
+#password{
+
+    margin-top: 85px;
+    margin-left: 97px;
+  
+    padding-left: 47px ;
+    background-position: 13px 2px;
+    width: 255px;
+
+}
+#cpassword{
+
+    
+    margin-left: 97px;
+  margin-top: 8px;
+    padding-left: 47px ;
+    background-position: 13px 2px;
+    width: 255px;
+
+}
+#Useremail{
+
+    
+   
+    padding-left: 47px ;
+    background-position: 13px 2px;
+    width: 255px;
+
+}
+
+#LastName{
+
+    
+   
+    padding-left: 47px ;
+    background-position: 13px 2px;
+    width: 255px;
+
+}
+#FirstName{
+
+    
+    
+    padding-left: 47px ;
+    
+    width: 255px;
+
+}
+#fn {
+
+margin-left: 120px;
+margin-top: 8px;
+position: absolute;
+background-position: 13px 2px;
+
+}
+
+#ln {
+
+    margin-left: 120px;
+    margin-top:9px;
+    position: absolute;
+    background-position: 13px 2px;
+    
+    }
+    #em{
+
+        margin-left: 120px;
+        margin-top:9px;
+        position: absolute;
+        background-position: 13px 2px;
+        
+        }
+        #ps {
+
+            margin-left: 120px;
+            margin-top:93px;
+            position: absolute;
+            background-position: 13px 2px;
+            
+            }
+            #cps {
+
+             margin-left: -283px;
+                margin-top:130px;
+                position: absolute;
+                background-position: 13px 2px;
+                
+                }
+
+    form button{
+
+        border-radius: 13px;
+        outline:none;
+        border: 1px solid burlywood ;
+        width: 150px;
+        height:25px ; 
+        text-align: center;
+        background-color:cornflowerblue;
+        color: mintcream;
+        margin-left: 160px;
+        margin-top:15px;
+        text-align: center;
+
+
+    }
+    button:hover{
+
+        box-shadow: 2px 2px 5px #555;
+    }
+#text1{
+    color: rgb(14, 13, 13);
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#checkbox{
+
+    margin-top: 15px;
+    margin-left: 100px;
+   
+
+}
+#terms{
+ margin-top: 15px;
+ display: inline;
+
+}
+
+    
+/*--------------------------------------------radiobutton---------------------*/
+
+
+#radio {
+    height: 18x;
+    width: 300px;
+    border-radius: 50px;
+    display: flex;
+    position: absolute;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55),
+    10px 10px 15px rgba(19, 18, 18, 0.12);
+    margin-left:100px ;
+    border: 1px solid burlywood;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+ label{
+     font-size: 17px;
+     font-weight: 500;
+     border-radius: 35px;
+     padding: 5px 37px;
+     font-family: "poppins"sans-serif;
+     color: #303030;}
+
+     input[type="radio"]:checked+label
+      { box-shadow: 
+             inset -10px -10px 15px rgba(170, 96, 170, 0.61),
+            inset  10px 10px 15px rgba(32, 29, 29, 0.12);
+     }
+
+
+     #radio:hover{
+
+        box-shadow: 2px 2px 5px #555;}
+
+/*-----------------------------------------------dropdown menu gender-------------------------------*/
+
+.dropdown{
+
+    position: absolute;
+    width: 90px;
+    height: 27px;
+    border-radius: 38px;
+    background: #f0f1f6;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55),
+    10px 10px 15px rgba(19, 18, 18, 0.12);
+    transition: all 500ms ease-in-out;
+    margin-top: 100px;
+    cursor: pointer;
+    border: 1px solid burlywood;
+    margin-top: 49px;
+    margin-left: 100px;
+    
+}
+.dropdown:hover{
+
+    box-shadow: 2px 2px 5px #555;
+
+}
+.dropdown:active{
+     background: #f0f1f6;
+     box-shadow: inset 7px 7px 14px #cccdd1,
+     inset -7px -7px 14px#ffffff ;
+}
+     .dropdown input{
+        position:absolute;
+        transform: translate(-50%,-50%);
+        left: 46%;
+        top: 49%;
+        text-align: center;
+        z-index: 1;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        color: #37373d;
+        width: 100px;
+
+        
+     }
+     .dropdown input:focus{
+         outline: none;
+         border: none;
+     }
+.dropdown i{
+    color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+}
+.dropdown.show i{
+    transform: translateY(-50%) rotate(180deg);
+    transition: all 500ms ease-in-out;
+}
+.option{
+    position: absolute;
+    top: 33px;
+    width: 140px;
+    margin-left:-60px;
+    background: #f0f1f6;
+    border-radius: 25px;
+    box-shadow: 20px 20px 60px #d0d0d0,
+                -20px -20px 60px #ffffff;
+                
+
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    
+
+   
+}
+.dropdown.show .option{
+    visibility: visible;
+    opacity: 1;
+    transition: all 500ms ease-in-out;
+    
+}
+.option li{
+    position: relative;
+    padding: 15px;
+    list-style-type: none;
+    color:#37373d;
+    transition: all 500ms ease-in-out;
+
+}
+
+.option li:hover{
+    background: rgba(0,0,0,.1);
+    border-radius: 25px;
+}
+
+/*-----------------------------------------------dropdown menu bloodgrp-------------------------------*/
+.dropdown2{
+
+    position: absolute;
+    width: 127px;
+    height: 27px;
+    border-radius: 38px;
+    background: #f0f1f6;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55),
+    10px 10px 15px rgba(19, 18, 18, 0.12);
+    transition: all 500ms ease-in-out;
+    margin-top: 100px;
+    cursor: pointer;
+    border: 1px solid burlywood;
+    margin-top: 50px;
+    margin-left: 234px;
+    display: flex;
+
+}
+.dropdown2:hover{
+
+    box-shadow: 2px 2px 5px #555;
+
+}
+.dropdown2:active{
+     background: #f0f1f6;
+     box-shadow: inset 7px 7px 14px #cccdd1,
+     inset -7px -7px 14px#ffffff ;
+}
+     .dropdown2 input{
+        position:absolute;
+        transform: translate(-50%,-50%);
+        left: 46%;
+        top: 49%;
+        text-align: center;
+        z-index: 1;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        color: #37373d;
+        width: 100px;
+
+        
+     }
+     .dropdown2 input:focus{
+         outline: none;
+         border: none;
+     }
+.dropdown2 i{
+    color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+.dropdown2.show2 i{
+    transform: translateY(-50%) rotate(180deg);
+    transition: all 500ms ease-in-out;
+}
+.option2{
+    position: absolute;
+    top: 33px;
+    width: 130px;
+    margin-left: -44px;
+    background: #f0f1f6;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #d0d0d0,
+                -20px -20px 60px #ffffff;
+
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    height: 152PX;
+  overflow-y: auto;
+
+   
+}
+.option2::-webkit-scrollbar{
+    width: 8px;
+    border-radius:0 8px 8px 0 ;
+    background: #4d70d1;
+}
+.option2::-webkit-scrollbar-thumb{
+    border-radius:0 35px 35px 0 ;
+    background: #2e2f31;
+
+}
+.dropdown2.show2 .option2{
+    visibility: visible;
+    opacity: 1;
+    transition: all 500ms ease-in-out;
+}
+.option2 li{
+    position: relative;
+    padding: 15px;
+    list-style-type: none;
+    color:#37373d;
+    transition: all 500ms ease-in-out;
+
+}
+
+.option2 li:hover{
+    background: rgba(0,0,0,.1);
+    border-radius: 25px;
+}
+

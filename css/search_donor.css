@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --orange:#ffa500;}
+body{
+	background: #e0dbef;
+}
+
+.wrapper{
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search_box{
+	background: #77777a;
+	position: relative;
+	padding: 15px;
+	border-radius: 50px;
+	display: flex;
+	
+}
+
+.search_box .search_btn{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #9a9a9b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-right: 15px;
+	cursor: pointer;
+
+	border: none;
+	outline: none;
+}
+
+
+.search_box .input_search{
+	outline: none;
+	border: 0;
+	background: #9a9a9b;
+	border-radius: 50px;
+	padding: 15px 20px;
+	width: 300px; 
+	height: 50px;
+	color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+    
+.box{
+    display: block;
+     
+     width: 280px;
+    
+     
+     border-radius: 25px;
+     margin:15px;
+     transition: 0.5s ease;
+      cursor: pointer;
+     
+ margin-left: 40px;
+ margin-top: 40px;
+     box-shadow: inset -2px -2px 8px rgb(196, 187, 187),
+     inset -2px -2px 12px rgba(255,255,255,0.5),
+     inset 2px 2px 4px rgba(255,255,255,0.1),
+     inset 2px 2px 8px rgba(0,0,0,0.15);
+     padding: 30px;
+    
+     
+ }
+ 
+ .arrivals .box:hover{
+     transform: scale(1.15);
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+ }
+ 
+ .arrivals  .box  .book-thumb img{
+     height:10rem;
+     padding-left: 42px;
+     
+ }
+ 
+ .arrivals .box .content h6{
+     font-size: 1.5rem;
+     color:var(--black);
+    text-align: center;
+ }
+ 
+ 
+ 
+ .arrival{
+     display: inline-flex;
+     
+     
+ }
+ a
+{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #292929;
+}
+
+.btn-small
+{
+    display: inline-flex;
+    
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow:inset -2px -2px 8px white,
+    inset -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+    transition: 0.4s;
+}
+
+.btn-round
+{
+    display: inline-flex;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 7px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: -2px -2px 8px white,
+     -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+     2px 2px 8px rgba(0,0,0,0.15);
+
+}
+.btn-small:hover
+{
+    box-shadow: -2px -2px 8px white,
+     -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+     2px 2px 8px rgba(0,0,0,0.15);
+     color: #7289ab;
+     text-decoration: none;
+}
+.btn-round:hover
+{
+    box-shadow:inset -2px -2px 8px white,
+    inset -2px -2px 12px rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,0.1),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+    color: #7289ab;
+}
+
+
+.heading{
+    text-align: center;
+    margin-top: 40px;
+	margin-bottom: -80px;
+    position: relative;
+}
+
+.heading::before{
+    content: '';
+    position: absolute;
+    top:50%; left:0;
+    transform: translateY(-50%);
+    width: 100%;
+    height:.01rem;
+    
+    z-index: -1;
+}
+
+.heading span{
+    
+    padding:.2rem 1rem;
+    
+        font-size: 2rem;
+        background:rgba(29, 27, 27, 0.897);
+  color:rgb(194, 76, 76);
+        border-radius: .5rem;
+    
+  
+    
+}
+.heading span.space{
+    background:none;
+  }
+
+  body {
+    width: 100vw;
+    background-color: #f1e9e9;
+    margin: 0;
+    font-family: helvetica;
+ }
+ 
+ 
+ 
+ 
+ 
+ @media screen and (max-width: 767px) {
+    .wrapper {
+       height: 700px;
+    }
+ }
+ 
+ .content {
+ 
+    padding: 0 4%;
+    padding-top: 250px;
+    margin: 0 auto;
+    
+    margin-top: -160px;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ @media screen and (max-width: 767px) {
+    .content {
+       padding-top: 300px;
+       flex-direction: column;
+    }
+ }
+ 
+ .card {
+    width: 300px;
+  
+   
+    
+    height: 250px;
+    background-color: #292727;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;   
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ 
+ .icon {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width:80px;
+    background: linear-gradient(90deg, #FF7E7E 0%, #FF4848 40%, rgba(0, 0, 0, 0.28) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+ }
+ 
+ .material-icons.md-18 { font-size: 18px; }
+ .material-icons.md-24 { font-size: 24px; }
+ .material-icons.md-36 { font-size: 36px; }
+ .material-icons.md-48 { font-size: 48px; }
+ 
+ .card .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ }
+ 
+ .card .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 20px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height:0;
+    transition: all 0.3s ease;
+ }
+ 
+ .card:hover {
+    height: 270px;
+ }
+ 
+ .card:hover .info {
+    height: 90%;
+ }
+ 
+ .card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height:40px;
+ }
+ 
+ .card:hover .icon {
+    background-position: -120px;
+    transition: all 0.3s ease;
+ }
+ 
+ .card:hover .icon i {
+    background: linear-gradient(90deg, #FF7E7E, #FF4848);
+   
+     -webkit-text-fill-color: transparent;
+    opacity: 1;
+    transition: all 0.3s ease;
+ }
+ 
+ .donor{
+    display: inline-flex;
+ }
+ 

@@ -1,0 +1,33 @@
+.h {
+
+
+    text-align: center;
+    padding:2.5rem 0;
+    margin-top: 50px;
+   display: flex;
+    position: absolute;
+    margin-left: 460px;
+    
+}
+  
+  .h span{
+    font-size: 2.5rem;
+    background:rgba(24, 24, 23, 0.2);
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+    margin: 2px;
+   
+   
+  }
+  .s{
+    color: rgb(255, 250, 250);
+    box-shadow: rgba(29, 28, 28, 0.2) 0px 60px 40px -7px;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55),
+    10px 10px 15px rgba(19, 18, 18, 0.12);
+    font-weight: 700;
+  }
+  .h span.space{
+    background:none;
+  }
+  
+  

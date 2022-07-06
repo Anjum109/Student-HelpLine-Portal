@@ -1,0 +1,195 @@
+/*......................... homepage......................*/
+
+.wrapper{
+    width: 1345px;
+    height: 1000px;
+    margin-top:0px ;
+
+}
+.Container header{
+    border-radius:10px ;
+    background:20px ;
+    height: 50px;
+    width: 1345px;
+    background-color :rgb(13, 45, 71);
+    box-shadow: 
+        inset -10px -10px 15px #205d75,
+       inset   10px 10px 15px rgb(17, 69, 112);
+        justify-content: center;
+} 
+
+
+section{
+
+    height: 900px;
+    width: 1345px;
+   
+    
+}
+
+footer{
+
+    background-color: black;
+    width:1345px;
+    height: 50px;
+
+
+}
+li a{
+
+    color:rgb(215, 209, 216);
+    text-decoration: none;
+    
+}
+   
+nav{
+   float: right;
+   
+  
+}
+nav li{
+
+    display: inline-block;
+    line-height:7px ;
+    font-size:10PX ;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    box-shadow: -5px -5px 10px 0 rgba(84, 167, 192, 0.795),
+    7px 7px 20px 0 rgba(143, 194, 236, 0.2) ;
+    border-radius:10px ;
+    
+  
+}
+nav ul li:hover{
+    box-shadow: inset -7px -7px 10px 0 rgba(148, 142, 142, 0.404),
+     7px 7px 20px 0 rgba(167, 50, 105, 0.911) ;
+
+   cursor: pointer;
+  
+   border-radius: 25px
+    
+
+}nav ul li a:hover{
+    color: rgb(10, 10, 10);
+ 
+ }
+
+/*----------------------------------------login----------------------------------*/
+
+#login{
+    height: 563px;
+    width: 1345px;
+     background-image: url("/image/login.jpg");
+     margin-top: 0%;
+     background-repeat: no-repeat;
+}
+
+
+.box {
+width: 380px;
+height: 350px;
+padding:10px ;
+margin: 60px;
+margin-left:480px ;
+margin-top:40px ;	
+border-radius: 25px;
+box-shadow: 0 0 27px grey;
+}
+.loginform {
+border-radius: 13px;
+outline:none;
+border: 1px solid burlywood;
+width: 245px;
+height:27px ; 
+margin-left: 50px;
+
+
+}
+form  button{
+border-radius: 13px;
+outline:none;
+border: 1px solid burlywood ;
+width: 150px;
+height:25px ; 
+text-align: center;
+background-color:cornflowerblue;
+color: mintcream;
+margin-left: 100px;
+margin-top: 3px;
+text-align: center;
+
+}
+
+
+button:hover{
+
+    box-shadow: 2px 2px 5px #555;
+}
+
+input:hover{
+
+box-shadow: 2px 2px 5px #555;
+}
+.box h1{
+margin-left: 147px;
+font-size:20px ;
+color: rgb(55, 54, 56);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box:hover{
+box-shadow: 2px 2px 5px #555;
+
+}
+form p{
+
+
+margin-left: 50px;
+margin-top: 15px;
+
+
+}
+.box p{
+
+margin-left: 50px;
+
+}
+#email{
+
+
+background-position: 13px 3px;
+
+padding-left: 47px ;
+}
+
+#password{
+
+background-position: 13px 2px;
+
+padding-left: 47px ;
+}
+#Useremail{
+
+
+margin-left: 70px;
+margin-top:8px;
+position: absolute;
+background-position: 13px 2px;
+}
+#psL{
+
+
+    margin-left: 70px;
+    margin-top:8px;
+    position: absolute;
+    background-position: 13px 2px;
+    }
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,129 @@
+.comment-text{
+ width: 600px;
+ margin-top: 40px;
+ border-radius: 10px;
+text-align: center;
+height:26px;
+display: inline;
+margin-left: 300px;
+padding-top: 10px;
+
+background-color: rgb(255, 255, 255);
+outline: none;
+border: 1px solid rgb(212, 216, 219);
+font-size: 19px;
+}
+#btn-comment{
+display: inline;
+
+    margin-top: 40px;
+position: absolute;
+width: 100px;
+height: 37px;
+border-radius: 10px;
+background-color: rgb(61, 94, 138);
+border: 1px solid honeydew;
+color: lavenderblush;
+cursor: pointer;
+margin-left: 10px;
+
+}
+form{
+    display: inline-block;
+}
+
+.prev-comments {
+    margin-top: 50px;
+    width: 900px;
+    margin-left: 200px;
+  
+}
+
+.prev-comments .single-item {
+    background: #FFF;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 10px 50px;
+    text-align: left;
+    margin-bottom: 25px;
+   
+    
+}
+
+.prev-comments .single-item h4 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #111;
+    margin-top: 9px;
+    margin-left: 50px;
+}
+
+.prev-comments .single-item span {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: rgb(134, 131, 131);
+position: absolute;
+    margin-left: 50px;
+    margin-top: -25px;
+    
+}
+.prev-comments .single-item p {
+    font-size: 18px;
+    color: rgb(14, 13, 13);
+    padding-left: 30px;
+    margin-bottom: -7px;
+}
+.user__avatar {
+    border-radius: 50%;
+    width: 45px;
+  }
+  .comment__top{
+
+    display: flex;
+    position: absolute;
+  }.post__image img {
+    width: 400px;
+    padding: 20px;
+  }
+  .messageSender__option {
+    display: inline-flex;
+    justify-content: space-evenly;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -40px;
+  color: gray;
+  }
+  
+  .btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+#dlt{
+
+    position: absolute;
+    margin-left: 800px;
+    font-size: 25px;
+  }#dlt:hover{
+    text-shadow:  2px 2px 5px #555;
+     color: rgb(136, 63, 63);
+    
+  }
+  
+body{
+
+    background-color: #d7dbd7;
+  }

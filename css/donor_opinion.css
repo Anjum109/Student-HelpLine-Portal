@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+.land-background{
+    background-image: url(image/dobc.jpg);
+    background-color: #aaa;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:blur(6px);
+    -webkit-filter: blur(6px);
+    opacity: 0.9;
+}
+.slider-card{
+    width: 500px;
+    max-width: 500px;
+    min-height: 500px;
+    position: absolute;
+    margin-top: 90px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255,255,0.55);
+    border:none;
+    border-radius: 15px;
+}
+.inner-wrapper{
+    position: relative;
+    padding: 30px 50px;
+}
+.slider-card h4{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.slider-card .form-control{
+    border:none;
+    height: 60px;
+    width: 400px;
+    backdrop-filter: blur(6px);
+    border:1px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255,0.55);
+}
+.slider-card .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+button{
+
+    background-color: crimson;
+    border: none;
+   outline: none;
+}
+.form-control button:hover{
+
+    background-color: red;
+}
+.text-center{
+
+    font-family: 'Tangerine', serif;
+
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+.ribbon {
+    padding: 5px;
+    height: 30px;
+    
+    background: #171718;
+    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font: normal 30px/60px 'Rye';
+    text-transform: uppercase;
+    color: #dddeda;
+    letter-spacing: 0.18em;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-left: 520px;
+    max-width: 300px;
+    
+  }

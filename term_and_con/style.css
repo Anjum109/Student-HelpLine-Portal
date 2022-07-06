@@ -1,0 +1,79 @@
+
+section.big-deal {
+
+    background: 
+    url(images/tmm.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	
+	filter: blur(3px);
+    -webkit-filter: blur(3px); 
+  height: 400px;
+}
+.container {
+    max-width: 1152px;
+  }
+.section-heading {
+	font-family: "Raleway-bold";
+	text-align: center;
+	Position: absolute;
+	
+	font-size: 50px;
+	margin-top: -200px;
+	
+padding-left: 280px;
+    color: rgb(15, 15, 15);
+}
+ 
+.service-card {
+	background: var(--heaven);
+	text-align: center;
+	padding: 2rem;
+	padding-top: 4rem;
+	margin-right: 2rem;
+	position: relative;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.service-card h2 {
+	font-family: "Raleway-bold";
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+
+	
+}
+
+.service-card p {
+	line-height: 1.6;
+	margin-bottom: 1rem;
+	margin-left: 259px;
+	margin-right: 259px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+.tacbox {
+	display: block;
+	padding: 1em;
+	margin-top: 2em;
+	border: 3px solid #ddd;
+	background-color: #eee;
+	max-width: 800px;
+	margin-left: 317px;
+}
+  
+  input {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+  }
+  
